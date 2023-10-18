@@ -299,7 +299,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 800;
-  color: black;
+  color: var(--green);
   background: #fff;
   border-radius: 5px;
 }
@@ -315,6 +315,10 @@ section {
   margin: 15px 0 0 0;
   font-size: 30px;
   font-weight: bold;
+}
+
+.icon-red {
+  color: #ff0000;
 }
 
 .hero p {
@@ -604,6 +608,8 @@ section {
   font-size: 25px;
   margin: 10px 5px 8px 5px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Team
@@ -896,6 +902,14 @@ section {
 }
 
 .organik-col-2 li {
+  text-align: justify;
+}
+
+.organik-col-3 p {
+  text-align: justify;
+}
+
+.organik-col-3 li {
   text-align: justify;
 }
 
